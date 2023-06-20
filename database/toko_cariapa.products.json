@@ -1,0 +1,598 @@
+[{
+  "_id": {
+    "$oid": "649013cf14eaaa66c5eb1f04"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "649014a014eaaa66c5eb1f06"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "649014a314eaaa66c5eb1f07"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "649014a514eaaa66c5eb1f08"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "649014a714eaaa66c5eb1f09"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "649014aa14eaaa66c5eb1f0a"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "649014ac14eaaa66c5eb1f0b"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "649014ae14eaaa66c5eb1f0c"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "649014b014eaaa66c5eb1f0d"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "649014b314eaaa66c5eb1f0e"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6490405144fd204e8a1cce7f"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6490405444fd204e8a1cce80"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6490405a44fd204e8a1cce81"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6490405d44fd204e8a1cce82"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6490406e44fd204e8a1cce83"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6490407144fd204e8a1cce84"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6490407444fd204e8a1cce85"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6490407744fd204e8a1cce86"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6490407944fd204e8a1cce87"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6490407c44fd204e8a1cce88"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6490409544fd204e8a1cce89"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "649040a844fd204e8a1cce8c"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "649040ac44fd204e8a1cce8d"
+  },
+  "nama": "Tas",
+  "deskripsi": "Ini adalah tas",
+  "harga": 125000,
+  "ratings": 3,
+  "kategori": "Sepatu",
+  "gambar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2020/12/15/971c1af3-7f1d-4bfb-a908-3cdaa4d5aa57.jpg"
+  },
+  "Stock": 3,
+  "numOfReviews": 0,
+  "reviews": [
+    null
+  ],
+  "user": {
+    "$oid": "64900a718b5e39b2e050fe05"
+  },
+  "dibuat": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  },
+  "__v": 0
+}]

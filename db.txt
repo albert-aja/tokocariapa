@@ -1,0 +1,8 @@
+Cara import database :
+
+1. download mongodb atau akses secara online melalui web
+2. buat database dengan nama "toko_cariapa"
+3. buat tiga collection, masing-masing dengan nama orders, products, users
+4. import data dengan menggunakan tombol "ADD DATA"
+5. pilih opsi "Import JSON or CSV file", lalu pilih file yang sesuai
+6. sesuaikan url mongodb pada file "backend/config/config.env" pada variabel DB_URI
