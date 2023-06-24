@@ -2,14 +2,46 @@
   "_id": {
     "$oid": "64900c3614eaaa66c5eb1f01"
   },
-  "nama": "Ant",
-  "email": "test@gmail.com",
+  "nama": "Admin",
+  "email": "admin@gmail.com",
   "password": "$2a$10$Kfw7B9kuo13u9Q0VEUZoO.t255VgQnV1RDrTktyBc4PVx1fMjXuke",
   "avatar": {
     "public_id": "avatars/vrdaekysgk7715achkxe",
     "url": "https://res.cloudinary.com/ddy5xzsl5/image/upload/v1687161457/avatars/vrdaekysgk7715achkxe.png"
   },
   "role": "admin",
+  "createdAt": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64964f71d5384336a9e18485"
+  },
+  "nama": "User1",
+  "email": "user1@gmail.com",
+  "password": "$2a$10$Kfw7B9kuo13u9Q0VEUZoO.t255VgQnV1RDrTktyBc4PVx1fMjXuke",
+  "avatar": {
+    "public_id": "avatars/vrdaekysgk7715achkxe",
+    "url": "https://res.cloudinary.com/ddy5xzsl5/image/upload/v1687161457/avatars/vrdaekysgk7715achkxe.png"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2023-06-14T07:57:37.672Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64964f86d5384336a9e18486"
+  },
+  "nama": "User2",
+  "email": "user2@gmail.com",
+  "password": "$2a$10$VkLiI1YvxQpsZmhgELg.I.C5NowtJh9HyBeA5pRTjvjLTQMWHUsY6",
+  "avatar": {
+    "public_id": "avatars/wdsbt0klmakyug4wjvpe",
+    "url": "https://res.cloudinary.com/ddy5xzsl5/image/upload/v1687595167/avatars/wdsbt0klmakyug4wjvpe.jpg"
+  },
+  "role": "user",
   "createdAt": {
     "$date": "2023-06-14T07:57:37.672Z"
   }

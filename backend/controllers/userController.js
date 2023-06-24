@@ -170,7 +170,7 @@ exports.updateProfile = catchAsyncErrors(async (req, res, next) => {
   };
 
   //We will add cloudinary later
-  if (req.body.avatar !== "") {
+  if (req.body.avatar) {
     const user = await User.findById(req.user.id);
 
     const imageId = user.avatar.public_id;
