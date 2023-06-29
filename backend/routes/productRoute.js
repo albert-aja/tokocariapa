@@ -16,7 +16,7 @@ const { isAuthUser, authorizeRoles } = require("../middleware/auth");
 
 const router = express();
 
-router.route("/products").get(rateLimit, ambilSemuaProduk);
+router.route("/products").get(rateLimit.rateLimitProduct, ambilSemuaProduk);
 
 router
   .route("/admin/product/new")

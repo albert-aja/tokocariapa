@@ -1,4 +1,6 @@
+const rateLimit = require("../middleware/rateLimiter");
 const express = require("express");
+
 const {
   daftarUser,
   loginUser,
@@ -17,7 +19,7 @@ const { isAuthUser, authorizeRoles } = require("../middleware/auth");
 const router = express.Router();
 
 router.route("/register").post(daftarUser);
-router.route("/login").post(loginUser);
+router.route("/login").post(rateLimit.rateLimitLogin, loginUser);
 router.route("/password/forgot").post(forgotPasssword);
 router.route("/password/reset/:token").put(resetPassword);
 router.route("/logout").get(logout);
