@@ -445,6 +445,35 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "Keranjang",
+			"item": [
+				{
+					"name": "Keranjang User",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "__stripe_mid=02bb8593-e0d9-4f3d-bac4-d824246edcd1212951; sb-ygfmyqpluyxeoxpiftvl-auth-token=%5B%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNjg4MzkyMzQ0LCJzdWIiOiIxYzY3M2RjNy0yNDBhLTRmYjAtYjIwMS1kNjk0ZWNhYWMzYzgiLCJlbWFpbCI6ImFsYmVydGFyaWVzMThAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCIsImdpdGh1YiJdfSwidXNlcl9tZXRhZGF0YSI6e30sInJvbGUiOiJhdXRoZW50aWNhdGVkIiwiYWFsIjoiYWFsMSIsImFtciI6W3sibWV0aG9kIjoib2F1dGgiLCJ0aW1lc3RhbXAiOjE2ODgzODg3NDR9XSwic2Vzc2lvbl9pZCI6ImY5MDdlMDc4LWFmOWYtNDM2Yy05YjYyLWRmYTgxMDAyYTcyZCJ9.GQ9TZ-hGD8_VfsYWI4Ef83cdi3sZrnyL2T6sAbEl8TA%22%2C%22WTWKSP5hiLNoE-8EeKDMnQ%22%2C%22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%22%2Cnull%2Cnull%5D; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OTY0ZjcxZDUzODQzMzZhOWUxODQ4NSIsImlhdCI6MTY5OTY3Njg5MSwiZXhwIjoxNzAwMTA4ODkxfQ.DMo-UaF4s3gEZZqmIGxmKKkoAOsBcrlpVAdhZk8vG60",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{URL_LOCAL}}/cart/me",
+							"host": [
+								"{{URL_LOCAL}}"
+							],
+							"path": [
+								"cart",
+								"me"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	],
 	"event": [

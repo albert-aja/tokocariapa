@@ -17,6 +17,8 @@ const ProductDetails = ({ match }) => {
     (state) => state.productDetails
   );
 
+  const user = useSelector((state) => state.user);
+
   useEffect(() => {
     if (error) {
       alert.error(error);
@@ -66,15 +68,24 @@ const ProductDetails = ({ match }) => {
               </div>
               <div className="detailsBlock-3">
                 <h1>{rupiah(product.harga)}</h1>
-                <div className="detailsBlock-3-1">
-                  <div className="detailsBlock-3-1-1">
-                    <button>-</button>
-                    <input value="1" type="number" />
-                    <button>+</button>
-                  </div>{" "}
-                  <button>Tambah Keranjang</button>
-                </div>
-
+                {user.isAuthenticated ? (
+                  <div className="detailsBlock-3-1">
+                    <div className="detailsBlock-3-1-1">
+                      <button id="minus" onClick={subtract}>
+                        -
+                      </button>
+                      <input value="1" type="number" id="txtNumber" />
+                      <button id="plus" onClick={add}>
+                        +
+                      </button>
+                    </div>{" "}
+                    <button id="addCart" onClick={addToCart}>
+                      Tambah Keranjang
+                    </button>
+                  </div>
+                ) : (
+                  ""
+                )}
                 <p>
                   Status:{" "}
                   <b className={product.Stock < 1 ? "redColor" : "greenColor"}>
@@ -85,7 +96,11 @@ const ProductDetails = ({ match }) => {
               <div className="detailsBlock-4">
                 Deskripsi:<p>{product.deskripsi}</p>
               </div>
-              <button className="submitReview">Submit Review</button>
+              {user.isAuthenticated ? (
+                <button className="submitReview">Submit Review</button>
+              ) : (
+                ""
+              )}
             </div>
           </div>
           <h3 className="reviewsHeading">REVIEWS</h3>
@@ -101,6 +116,43 @@ const ProductDetails = ({ match }) => {
       )}
     </Fragment>
   );
+
+  function addToCart() {
+    let url = `${window.location.origin}/api/v1/cart/new`;
+    let status;
+
+    fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        user_id: user.user._id,
+        product_id: product._id,
+        jumlah: parseInt(document.getElementById("txtNumber").value),
+      }),
+    })
+      .then((res) => {
+        if (res.status === 200) {
+          alert.success("produk telah ditambahkan ke keranjang");
+        }
+      })
+      .catch((err) => {
+        alert.error(err);
+      });
+  }
 };
+
+function add() {
+  var txtNumber = document.getElementById("txtNumber");
+  var newNumber = parseInt(txtNumber.value) + 1;
+  txtNumber.value = newNumber;
+}
+
+function subtract(e) {
+  e.preventDefault();
+  var txtNumber = document.getElementById("txtNumber");
+  var newNumber = parseInt(txtNumber.value) - 1;
+  txtNumber.value = newNumber;
+  return false;
+}
 
 export default ProductDetails;

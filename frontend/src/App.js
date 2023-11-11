@@ -17,6 +17,7 @@ import Profile from "./components/User/Profile.js";
 import ProtectedRoute from "./components/Route/ProtectedRoute";
 import UpdateProfile from "./components/User/UpdateProfile.js";
 import UpdatePassword from "./components/User/UpdatePassword.js";
+import Cart from "./components/Cart/Cart.js";
 // import Loader from "./components/layout/Loader/Loader";
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <Route exact path="/product/:id" component={ProductDetails} />
       <Route exact path="/products" component={Products} />
       <Route path="/products/:keyword" component={Products} />
+      <Route path="/Cart" component={Cart} />
       <Route exact path="/search" component={Search} />
       <Route exact path="/login" component={LoginRegister} />
       <ProtectedRoute exact path="/akun" component={Profile} />

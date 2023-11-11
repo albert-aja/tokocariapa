@@ -1,2 +1,2 @@
-email   : test@gmail.com
+email   : user1@gmail.com
 pw      : test12345
